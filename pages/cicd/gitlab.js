@@ -15,7 +15,7 @@ export default () => (
       (Continuous integration and Continuous Delivery)
     </span>
 
-    <h3>پیش‌نیاز‌ها</h3>
+    <h3>راه‌اندازی CI/CD به وسیله GitLab</h3>
     <p>
       برای راه اندازی CI/CD در GitLab شما به GitLab CI نیاز دارید. از{" "}
       <a href="https://docs.gitlab.com/ee/ci/" target="_blank">
