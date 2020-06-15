@@ -70,9 +70,9 @@ deploy:
       >
         مستندات Variables
       </a>{" "}
-      بیشتر مطالعه کنید. به صورت کلی شما هر key-value ای را که در بخش{" "}
-      Variablesتعریف کنید، در فایل <span className="code">.gitlab-ci.yml</span>{" "}
-      قابل استفاده میشود. مثلا در فایل بالا ما دو Variable با نام‌های TOKEN و
+      بیشتر مطالعه کنید. به صورت کلی شما هر key-value ای را که در بخش Variables
+      تعریف کنید، در فایل <span className="code">.gitlab-ci.yml</span> قابل
+      استفاده میشود. مثلا در فایل بالا ما دو Variable با نام‌های TOKEN و
       PROJECT_NAME داریم.
     </p>
     <p>
