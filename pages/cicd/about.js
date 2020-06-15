@@ -1,0 +1,46 @@
+import Layout from "../../components/Layout";
+import Head from "next/head";
+import Notice from "../../components/Notice";
+
+export default () => (
+  <Layout>
+    <Head>
+      <title>CI/CD سرویس ابری لیارا | مستندات</title>
+    </Head>
+
+    <h1>درباره CI/CD</h1>
+    <span className="pageDescription">
+      (Continuous Integration and Continuous Delivery)
+    </span>
+
+    <p>
+      این روزها که تغییرات نرم‌افزارها سرعت بیشتری گرفته، احتیاج به ساختاری برای
+      اطمینان از سالم بودن نرم‌افزار و تحویل مستمر و راحت و بدون وقفه آن به
+      کاربران، بیش از پیش شده است.
+    </p>
+    <p>
+      <a
+        href="https://en.wikipedia.org/wiki/Continuous_integration"
+        target="_blank"
+      >
+        Continuous Integration
+      </a>{" "}
+      به شما کمک میکند تا مخزن کدها را همیشه سلامت و یکپارچه نگه‌دارید و{" "}
+      <a
+        href="https://en.wikipedia.org/wiki/Continuous_delivery"
+        target="_blank"
+      >
+        Continuous Delivery
+      </a>{" "}
+      به شما کمک میکند که بتوانید به راحتی تغییرات نرم‌افزار را به دست کاربران
+      برسانید. مثلا در CI با اجرای تست‌ها و اطمینان از Pass شدن آن‌ها، جلوی ورود
+      کد‌های ناسالم به مخزن کدها گرفته میشود و در CD با هر push کردن در مخزن کد،
+      برنامه‌‌ی شما در سرور به‌روز میشود.
+    </p>
+    <p>
+      در صورتی که از لیارا برای استقرار یا Deploy برنامه‌های‌تان استفاده
+      کرده‌اید میتوانید به راحتی بین مخزن‌ کد‌هایتان و بستر ابری لیارا ارتباط
+      برقرار کنید و سازوکارهای CI/CD را اجرا کنید.
+    </p>
+  </Layout>
+);
