@@ -25,10 +25,10 @@ $ cd angular-getting-started`}
     </pre>
     <p>
       برای این که مطمئن بشید همه چیز درست کار میکنه کافیه دستورات
-      <span className="code">npm isntall</span> و{" "}
-      <span className="code">npm start</span> رو وارد کنید و اگر پروژه با
-      موفقیت روی سیستم شما اجرا شد، یعنی که آماده هستیم که اون‌ رو بر بستر لیارا
-      نیز مستقر کنیم.
+      <span className="code">npm install</span> و{" "}
+      <span className="code">npm start</span> را وارد کنید و اگر پروژه با موفقیت
+      روی سیستم شما اجرا شد، یعنی که آماده هستید که پروژه را بر بستر لیارا نیز
+      مستقر کنید.
     </p>
 
     <Link href="/apps/angular/deploy">متوجه شدم، برو بعدی!</Link>
