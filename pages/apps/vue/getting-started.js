@@ -10,6 +10,13 @@ export default () => (
 
     <h1>فریم‌ورک VueJS</h1>
     <span className="pageDescription">(VueJS Framework)</span>
+
+    <h3>🚀 شروع به کار</h3>
+    <video
+      src="https://files.liara.ir/liara/react.mp4"
+      controls="controls"
+      className="block w-full"
+    ></video>
     <p>
       در این بخش به شما کمک میکنیم که در سریع‌ترین زمان ممکن برنامه VueJS ای‌ که
       نوشتید را روی بستر ابری Liara مستقر کنید. برای راحتی شما با یک مثال واقعی

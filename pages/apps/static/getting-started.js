@@ -10,6 +10,13 @@ export default () => (
 
     <h1>سایت‌های Static</h1>
     <span className="pageDescription">(Static Sites)</span>
+
+    <h3>🚀 شروع به کار</h3>
+    <video
+      src="https://files.liara.ir/liara/react.mp4"
+      controls="controls"
+      className="block w-full"
+    ></video>
     <p>
       در این بخش به شما کمک میکنیم که در سریع‌ترین زمان ممکن برنامه Static ای‌
       که نوشتید را روی بستر ابری Liara مستقر کنید. برای راحتی شما با یک مثال
