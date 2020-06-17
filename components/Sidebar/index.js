@@ -109,7 +109,7 @@ export default class Sidebar extends Component {
                   <li><ActiveLink href="/apps/flask/dbs">اتصال به دیتابیس</ActiveLink></li>
                   <li><ActiveLink href="/apps/flask/disks">استفاده از دیسک‌ها</ActiveLink></li>
                   <li><ActiveLink href="/apps/flask/domain">وصل کردن دامنه</ActiveLink></li>
-                  <li><ActiveLink href="/apps/flask/tips">توضیحات و نکات تکمیلی</ActiveLink></li>
+                  {/* <li><ActiveLink href="/apps/flask/tips">توضیحات و نکات تکمیلی</ActiveLink></li> */}
                 </ul>
               </li>
               <li><span className="nav__title">Net Core.</span>
