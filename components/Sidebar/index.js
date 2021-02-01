@@ -197,7 +197,13 @@ export default class Sidebar extends Component {
             <NavTitle href="/one-click-apps">برنامه‌های آماده</NavTitle>
             <ul className="nav__list">
               <li><ActiveLink href="/one-click-apps/about">درباره برنامه‌های آماده</ActiveLink></li>
-              <li><ActiveLink href="/one-click-apps/wordpress">WordPress</ActiveLink></li>
+              <li>
+                <NavTitle href="/one-click-apps">WordPress</NavTitle>
+                <ul className="nav__list">
+                  <li><ActiveLink href="/one-click-apps/wordpress">شروع به‌کار</ActiveLink></li>
+                  <li><ActiveLink href="/one-click-apps/wordpress/cpanel">انتقال از cPanel</ActiveLink></li>
+                </ul>
+              </li>
               <li><ActiveLink href="/one-click-apps/rocketchat">RocketChat</ActiveLink></li>
               <li><ActiveLink href="/one-click-apps/gitea">Gitea</ActiveLink></li>
               <li><ActiveLink href="/one-click-apps/others">دیگر برنامه‌ها</ActiveLink></li>
